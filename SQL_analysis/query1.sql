@@ -7,7 +7,6 @@ WITH TotalRides AS (
    gda-sandbox-1.cyclistic.cyclistic_trips_v1
 )
 
-
 SELECT
  usertype,
  COUNT(trip_id) AS number_of_rides,
