@@ -37,3 +37,9 @@ Here, the emphasis is on data sanitation—ensuring its integrity and priming it
 ### Analyze
 
 At this juncture, the data is meticulously examined to unearth insights and potential resolutions to our business task. I structured the data into various tables using SQL within BigQuery. This stage facilitated the detection of pivotal trends and relationships.
+
+The first step is to calculate the total trips overall along with the total trips for annual members and casual customers. Additionally I calculated the percentages of both user types over the overall total to get a better picture the data.
+
+![table1](https://github.com/MaazKCodes/cyclistic_data_analysis_project/assets/145296540/19b4233a-1dc4-40bf-b9dc-5ffa3a82c665)
+
+
