@@ -12,7 +12,7 @@ Cyclistic, stationed in Chicago, categorizes its bike-share customers into two s
 
 According to Cyclistic's financial analysts, annual members significantly outperform casual riders in terms of profitability. Hence, the company's prosperity hinges on transitioning casual riders to members. To achieve this, the executive team envisions a Q4 marketing campaign tailored for casual riders. The primary stakeholders are Cyclistic’s director of marketing and the executive team, while the marketing analytics team serves as secondary stakeholders. My role, as a marketing analyst, is to discern the behavioral nuances between these user types and offer actionable insights.
 
-### Ask
+## Ask
 
 The essence of this stage is formulating pertinent questions to comprehend the problem at hand.
 
@@ -24,22 +24,83 @@ These questions culminate in the subsequent business task:
 
 Business Task: Assess Cyclistic's Q4 trip data to discern patterns distinguishing user types, aiming to promote casual riders to annual members.
 
-### Prepare
+## Prepare
 
 In this phase, the spotlight is on acquiring pertinent, unbiased, and credible data. Given the data's residence within the company’s public database, its credibility is affirmed. This data is structured in a CSV format, encompassing 12 fields and approximately 800,000 records.
 
 We anchor our analysis to the Q4 2019 trip data, as it aligns with our objectives. The focus on Q4 is due to the upcoming executive-backed campaign for the same quarter. The choice of 2019 is deliberate; it's the most recent year unaffected by the COVID-19 pandemic. This dataset, rich with insights on trips, user types, durations, and stations, equips us to address our central question.
 
-### Process
+## Process
 
 Here, the emphasis is on data sanitation—ensuring its integrity and priming it for analysis. A detailed account of this phase can be found in the change log.
 
-### Analyze
+## Analyze
 
-At this juncture, the data is meticulously examined to unearth insights and potential resolutions to our business task. I structured the data into various tables using SQL within BigQuery. This stage facilitated the detection of pivotal trends and relationships.
+In this pivotal phase, the prepared data undergoes rigorous examination to unearth patterns and inform our primary objectives. Through the adept utilization of SQL within BigQuery, the data was transformed into multiple structured tables, thereby setting the stage for deciphering key trends and relationships.
 
-The first step is to calculate the total trips overall along with the total trips for annual members and casual customers. Additionally I calculated the percentages of both user types over the overall total to get a better picture the data.
+Initial Insights: The overarching step was to understand the general trip distribution. The breakdown revealed that while subscribers took a whopping 85% of the total 704,041 trips during the 3-month span, casual riders trailed with 15%. This stark contrast serves as a foundation for further exploration.
 
 ![table1](https://github.com/MaazKCodes/cyclistic_data_analysis_project/assets/145296540/19b4233a-1dc4-40bf-b9dc-5ffa3a82c665)
 
+
+Diving Deeper: A closer look at the descriptive statistics uncovered some intriguing aspects. For instance, the broad range in ride lengths—from a mere 61 seconds to an astounding 99 days—suggested that relying solely on the mean could be misleading. Instead, adopting the median would provide a more representative snapshot of typical ride lengths.
+
+![table2](https://github.com/MaazKCodes/cyclistic_data_analysis_project/assets/145296540/03bf2aed-e688-4519-a376-d6390f062ede)
+
+
+Comparative Analysis: Differentiating ride durations between the user types was enlightening. While casual riders enjoyed longer rides, averaging 21 minutes and 18 seconds, subscribers preferred quicker rides, averaging around 8 minutes and 40 seconds. This divergence could imply that casual riders aim for maximum utilization, potentially using bikes for leisure or tourism, whereas subscribers might be more inclined toward commuting.
+
+![table3](https://github.com/MaazKCodes/cyclistic_data_analysis_project/assets/145296540/949c2178-72a9-4584-8930-134fc7b0321f)
+
+
+Usage Patterns: The choice of riding days offered another layer of differentiation. While casual users predominantly chose Sundays for their rides, echoing a leisurely or touristic trend, subscribers showed a preference for Tuesdays, possibly alluding to a more routine or work-related use.
+
+![table4](https://github.com/MaazKCodes/cyclistic_data_analysis_project/assets/145296540/4e959c64-c47b-437c-91a7-18efbcb71aff)
+
+Further analysis confirmed this hypothesis, revealing that while weekends are casual riders' favorite, weekdays saw more subscriber traffic.
+
+![table5](https://github.com/MaazKCodes/cyclistic_data_analysis_project/assets/145296540/457294d9-1765-4123-8ef4-a2e6c5fe4905)
+
+
+Optimal Ad Times: Identifying peak riding hours for both groups not only solidified our understanding of their biking habits but also informed potential advertising strategies. Subscribers predominantly rode during traditional commuting times, while casual riders favored mid-day hours, possibly emphasizing their non-commutative intent.
+
+Subscribers:
+
+![table6](https://github.com/MaazKCodes/cyclistic_data_analysis_project/assets/145296540/82d5bb22-1dfb-4423-b44b-d5cf24b7aa23)
+
+
+Casual Customers:
+
+![table7](https://github.com/MaazKCodes/cyclistic_data_analysis_project/assets/145296540/b6c49dad-e84e-4585-9229-c329250d83f4)
+
+
+Route Preferences: When we zoomed in on the most-traveled routes, a surprising revelation awaited: Not one route overlapped between the two groups' top ten choices. This divergence might indicate that while subscribers focus on downtown areas for work or education, casual riders might be targeting Chicago's famous tourist hotspots.
+
+The most popular routes for subscribers:
+
+![table8](https://github.com/MaazKCodes/cyclistic_data_analysis_project/assets/145296540/ba3e90e3-b3a0-4c52-93ab-aa7ecc423962)
+
+The most popular routes for casual customers: 
+
+![table9](https://github.com/MaazKCodes/cyclistic_data_analysis_project/assets/145296540/3f0e0e47-b86b-45e9-bf1e-368db3bc5227)
+
+Ad Location Insights: A glance at the most frequented start and end points revealed certain hubs of activity, particularly for casual riders. Stations like "Streeter Dr & Grand Ave" and "Lake Shore Dr & Monroe St" stood out as shared favorites for both starting and ending points, offering prime spots for targeted advertisements.
+
+Most used  starting stations for casual riders:
+
+![table10](https://github.com/MaazKCodes/cyclistic_data_analysis_project/assets/145296540/998fbb1f-53e7-4bc6-83e8-757dde13d64d)
+
+Most used ending stations for casual riders:
+
+![table11](https://github.com/MaazKCodes/cyclistic_data_analysis_project/assets/145296540/7461844d-d8de-4d1e-94e3-d0c686791dcd)
+
+
+Our analysis of Cyclistic's bike-sharing data has provided revealing insights into the contrasting behaviors of casual riders and subscribers. It's particularly fascinating to note that casual riders, while riding less frequently, savor longer durations per trip. Their choice of mid-day jaunts during weekends and preference for iconic tourist routes in Chicago underscores a leisurely, exploratory approach to biking. Subscribers, on the other hand, seem to have woven bike-sharing seamlessly into their daily routines, primarily leveraging the service for commuting during the weekdays and peak hours.
+
+These disparities present intriguing avenues for engagement. One might wonder: Could the weekend patterns of casual riders be tapped into more effectively, perhaps through specialized offers or tailored experiences that amplify the city's cultural attractions? And what if the hubs of casual rider activity, those specific stations teeming with them, became focal points for outreach or promotions? As for those peak hours—might there be a sweet spot to lure in the weekday casual riders into a more committed relationship with Cyclistic? While the data paints a clear picture, how Cyclistic chooses to act on these insights could shape the future of its customer base.
+
+
+## Share
+
+Visualization is an indispensable tool in the world of data storytelling. While numbers and tables provide the foundation of our insights, it's the art of visual depiction that truly brings this data to life, allowing both analysts and non-analysts to perceive trends, differences, and opportunities at a mere glance. Leveraging Tableau, a robust platform for dynamic visualizations, we've attempted to transform our raw data into a compelling narrative. These visualizations have been specifically designed to pave the way for actionable insights in the subsequent 'Act' phase.
 
