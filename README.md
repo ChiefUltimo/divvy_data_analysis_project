@@ -138,7 +138,9 @@ The destinations treemap sheds light on where our casual customers predominantly
 To amplify the appeal for casual riders, Cyclistic should introduce tailored member packages, especially curated for weekend excursions. These packages could encompass:
 
 Aquarium Adventures: Given the popularity of the Shedd Aquarium, offer discount passes for entry upon opting for a Cyclistic member package. This package could also come with a tailored biking route that covers nearby attractions.
+
 DuSable Harbor Delights: Highlight the scenic beauty of DuSable Harbor. Create a combo package which allows riders to explore the harbor, followed by a relaxing meal at nearby eateries, all at discounted rates.
+
 Cultural Expeditions: Recognize the cultural hubs like Millennium Park and other significant landmarks. Offer guided bike tours during weekends which meander through Chicago's most iconic spots.
 
 ### Strategy 2: Targeted Outdoor Advertising
