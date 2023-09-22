@@ -122,3 +122,35 @@ Here we delve into the nuances of hourly bike usage during weekdays for each use
 
 ![Viz 4](https://github.com/MaazKCodes/cyclistic_data_analysis_project/assets/145296540/bcd45c5f-8c93-408c-84fc-362914abd3b3)
 
+This treemap illustrates the top starting points favored by casual customers when commencing their journeys on a Cyclistic bike. Dominating the chart are renowned tourist hubs of Chicago. Streeter's Drive and Grand Avenue, paired with the scenic backdrop of Lake Shore Drive and Monroe Street, reign as the most favored kick-off spots. Furthermore, locations such as the Shedd Aquarium, Millennium Park, and DuSable Harbor are also notable points of commencement, alluding to their attractiveness for tourists and leisure riders. Given the inherent connection between these popular starting points and tourist destinations, there's clear evidence that casual riders are inclined to explore Chicago's renowned attractions on Cyclistic bikes.
+
+![Sheet 5](https://github.com/MaazKCodes/cyclistic_data_analysis_project/assets/145296540/b3880a0d-567e-4b41-b917-82ae9dd5eeb4)
+
+
+The destinations treemap sheds light on where our casual customers predominantly conclude their trips. Yet again, the allure of Chicago's iconic sites stands out. Streeter's Drive and Grand Avenue remain consistent favorites, followed closely by Lake Shore Drive and Monroe Street. Moreover, Millennium Park, the Shedd Aquarium, and the intersection of Michigan Avenue and Oak Street – the heart of the Magnificent Mile shopping district – also emerge as top destinations. The preference for these ending points further reinforces the notion that casual riders are not just traversing the city for transportation but are actively engaged in experiencing the city's cultural and recreational offerings.
+
+![Sheet 5 (2)](https://github.com/MaazKCodes/cyclistic_data_analysis_project/assets/145296540/13df13ff-4c1c-4793-8004-1385dc9dcf58)
+
+
+## Act
+
+### Strategy 1: Tailored Member Packages for Weekend Activities
+To amplify the appeal for casual riders, Cyclistic should introduce tailored member packages, especially curated for weekend excursions. These packages could encompass:
+
+Aquarium Adventures: Given the popularity of the Shedd Aquarium, offer discount passes for entry upon opting for a Cyclistic member package. This package could also come with a tailored biking route that covers nearby attractions.
+DuSable Harbor Delights: Highlight the scenic beauty of DuSable Harbor. Create a combo package which allows riders to explore the harbor, followed by a relaxing meal at nearby eateries, all at discounted rates.
+Cultural Expeditions: Recognize the cultural hubs like Millennium Park and other significant landmarks. Offer guided bike tours during weekends which meander through Chicago's most iconic spots.
+
+### Strategy 2: Targeted Outdoor Advertising
+Harness the power of prime locations. Erect outdoor advertisements at high-traffic stations such as "Streeter Dr & Grand Ave" and "Lake Shore Dr & Monroe St". Given their proximity to major tourist destinations, strategically placed ads can effectively catch the eye of casual riders.
+
+### Strategy 3: Enticing Weekend Membership Discounts
+Weekends see a surge in casual riders. To capitalize on this, introduce limited-time discounts on annual memberships during weekends. By making this offer time-sensitive, there's a higher likelihood of casual riders making impromptu decisions to upgrade.
+
+### Strategy 4: Peak-Hour "Happy Hour" Membership Promotions
+Leverage the weekdays' peak hours to woo the casual ridership market. Between the hours where casual ridership spikes, offer a "happy hour" discount on annual memberships. Not only does this provide an incentive to upgrade, but it also positions Cyclistic as a brand attuned to the needs and habits of its riders.
+
+## In Summation:
+The rich tapestry of data has unveiled a world of opportunity. Casual riders are not just users; they're potential loyalists awaiting the right nudge. By intersecting their habits with Cyclistic's offerings, we're not just pushing for conversions — we're curating an experience. An experience that takes a leisurely weekend ride around Chicago and transforms it into an enduring relationship with Cyclistic.
+
+Cyclistic now stands at the precipice of a transformative marketing campaign. With data as the compass, the path forward is clear, strategic, and promising. It's time to pedal forward and embrace the future of urban commuting. Let's ride!
