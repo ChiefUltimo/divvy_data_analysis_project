@@ -104,3 +104,21 @@ These disparities present intriguing avenues for engagement. One might wonder: C
 
 Visualization is an indispensable tool in the world of data storytelling. While numbers and tables provide the foundation of our insights, it's the art of visual depiction that truly brings this data to life, allowing both analysts and non-analysts to perceive trends, differences, and opportunities at a mere glance. Leveraging Tableau, a robust platform for dynamic visualizations, we've attempted to transform our raw data into a compelling narrative. These visualizations have been specifically designed to pave the way for actionable insights in the subsequent 'Act' phase.
 
+This visualization captures the distribution of our riders, neatly segmented into casual and subscriber categories. Helping us understand the proportion of casual riders to subscribers, this sets the stage for deeper dives into their respective behaviors.
+
+![Initial_Insights](https://github.com/MaazKCodes/cyclistic_data_analysis_project/assets/145296540/c1b8436f-73ab-4896-b83e-dd1018e35d9a)
+
+Here, we portray the median ride duration for both casual riders and subscribers.
+
+Witness the stark contrast in ride durations, highlighting the different priorities and use-cases of our two user groups.
+
+![Median Trip Duration](https://github.com/MaazKCodes/cyclistic_data_analysis_project/assets/145296540/7f054510-b0b7-4021-a58f-f69dd07484f1)
+
+This graph elucidates how both user types utilize Cyclistic bikes throughout the week. This chart helps to identify which days are most popular for casual riders, offering potential touchpoints for engagement. Note the sizeable presence of casual riders on weekdays along with the obvious weekend presence.
+
+![TripsByWeekDay](https://github.com/MaazKCodes/cyclistic_data_analysis_project/assets/145296540/2d932027-56fa-458c-9115-9d5273ac5075)
+
+Here we delve into the nuances of hourly bike usage during weekdays for each user type. By highlighting the ebb and flow of ridership across the hours, this chart pinpoints when casual riders are most active, presenting golden opportunities for targeted engagement on weekdays. Especially noticeable are the spikes during commuter hours — potential windows to launch promotions, incentives, or advertising campaigns tailored for weekday casual riders.
+
+![Viz 4](https://github.com/MaazKCodes/cyclistic_data_analysis_project/assets/145296540/bcd45c5f-8c93-408c-84fc-362914abd3b3)
+
